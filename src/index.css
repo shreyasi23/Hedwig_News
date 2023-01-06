@@ -85,18 +85,26 @@
   /* border: 2px solid black; */
   display: flex;
   width: 80rem;
-  margin:auto;
+  height: 208rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left:2rem;
   position:relative;
   top: 1rem;
 }
 
 .col-md-4 {
   flex: 0 0 auto;
-  width: 34.833333%;
+  width: 33.333333%;
 }
 
 .My_btn_style{
   background-color: #005850;
+  color: white;
+}
+
+.My_btn_style:hover{
+  background-color: #00675e;
   color: white;
 }
 
