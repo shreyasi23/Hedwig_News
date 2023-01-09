@@ -81,8 +81,9 @@
 /* End of Navbar style */
 
 /* News component style */
-.Newsrow{
-  /* border: 2px solid black; */
+
+/* .Newsrow{
+  /* border: 2px solid black; 
   display: flex;
   width: 80rem;
   height: 208rem;
@@ -91,11 +92,12 @@
   margin-left:2rem;
   position:relative;
   top: 1rem;
-}
+} */
 
 .col-md-4 {
   flex: 0 0 auto;
   width: 33.333333%;
+  margin-bottom: 17px;
 }
 
 .My_btn_style{
@@ -106,6 +108,17 @@
 .My_btn_style:hover{
   background-color: #00675e;
   color: white;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  /* margin-left: calc(-.5 * var(--bs-gutter-x)); */
+  margin-left: 0.5rem;
 }
 
 /* End of News component style */
