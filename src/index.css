@@ -119,6 +119,14 @@
   margin-right: calc(-.5 * var(--bs-gutter-x));
   /* margin-left: calc(-.5 * var(--bs-gutter-x)); */
   margin-left: 0.5rem;
+  margin-top: 4rem;
 }
 
+#next_btn{
+  padding: 0px 23px;
+}
+
+#next_prev_box{
+  margin-top: 3rem;
+}
 /* End of News component style */
